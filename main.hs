@@ -1,4 +1,4 @@
-
+-- PROGRAMA FUNCIONAL, USANDO HASKELL
 -- funcion, toma una funcion y la usa 2 veces
 dosVeces :: (a -> a) -> a -> a
 dosVeces f x = f (f x)

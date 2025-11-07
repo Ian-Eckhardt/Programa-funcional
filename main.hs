@@ -1,4 +1,6 @@
--- PROGRAMA FUNCIONAL, USANDO HASKELL
+-- PROGRAMA FUNCIONAL, USANDO HASKELL (Fecha de creacion 05/11/2025)
+-- Eckhardt Alvarez Ian
+
 -- funcion, toma una funcion y la usa 2 veces
 dosVeces :: (a -> a) -> a -> a
 dosVeces f x = f (f x)
